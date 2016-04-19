@@ -5,6 +5,9 @@ set (CMAKE_CXX_FLAGS "-std=c++14 -Wall -Wextra -pedantic")
 set (IMAGE_SEARCHER_SRC
   src/main.cpp)
 
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+
 # search for pkg-config
 include (FindPkgConfig)
 if (NOT PKG_CONFIG_FOUND)
