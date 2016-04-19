@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall -Wextra -pedantic   CMakeFiles/image-searcher.dir/src/main.cpp.o  -o image-searcher -rdynamic -lpng12 
